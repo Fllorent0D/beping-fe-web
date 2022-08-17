@@ -19,7 +19,7 @@ export class ClubMetadataService {
         seoTitle: club.LongName,
         seoDescription: "Retrouvez tous les infos de " + club.Name + " sur BePing",
         imageUrl: "",
-        appLink: "http://beping.be/club/" + uniqueIndex
+        appLink: "https://beping.be/club/" + uniqueIndex
       };
     } catch (e) {
       return seoConstant;
