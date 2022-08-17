@@ -1,0 +1,11 @@
+{
+  "apps" : [{
+    "name"        : "beping-fe-web",
+    "script"      : "./dist/main.js",
+    "exec_mode"   : "fork",
+    "env_production": {
+      "NODE_ENV": "prod",
+      "PORT": 3000
+    }
+  }]
+}
