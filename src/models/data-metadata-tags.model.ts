@@ -5,4 +5,5 @@ export interface DataMetadataTagsModel {
 }
 export interface AppLinkMetadata extends DataMetadataTagsModel{
   appLink: string;
+  originalUrl?: string;
 }
