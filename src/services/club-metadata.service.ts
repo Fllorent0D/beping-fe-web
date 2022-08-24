@@ -17,9 +17,9 @@ export class ClubMetadataService {
       const { data: club } = await firstValueFrom(this.clubService.findClubById(uniqueIndex));
       return {
         seoTitle: club.LongName,
-        seoDescription: "Retrouvez tous les infos de " + club.Name + " sur BePing",
+        seoDescription: "Retrouvez toutes les infos de " + club.Name + " sur BePing",
         imageUrl: "",
-        appLink: "https://beping.be/club/" + uniqueIndex
+        appLink: "beping://beping.be/club/" + uniqueIndex
       };
     } catch (e) {
       return seoConstant;
