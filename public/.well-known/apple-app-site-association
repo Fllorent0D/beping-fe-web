@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "SGT72A7T6A.be.floca.beping",
+        "paths": ["*"]
+      }
+    ]
+  }
+}

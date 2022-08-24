@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "be.floca.beping",
+               "sha256_cert_fingerprints": ["1F:7D:EB:F6:E0:6E:D3:58:0D:41:C9:55:9A:15:80:CF:F7:0F:ED:15:B8:ED:C5:36:20:4B:A9:85:32:D6:47:A3"] }
+}]
