@@ -38,7 +38,7 @@
     "@openapitools/openapi-generator-cli": "2.31.0",
     "@types/express": "5.0.6",
     "@types/jest": "29.5.14",
-    "@types/node": "20.19.37",
+    "@types/node": "24.12.2",
     "@types/supertest": "7.2.0",
     "@typescript-eslint/eslint-plugin": "7.18.0",
     "@typescript-eslint/parser": "7.18.0",
